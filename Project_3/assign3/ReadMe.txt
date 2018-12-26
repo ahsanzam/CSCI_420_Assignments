@@ -28,11 +28,7 @@ Feature:                                 Status: finish? (yes/no)
 
 	2. I also implemented an anti-aliasing function using the supersampling method. You can enable anti-aliasing by setting the performAntiAlias global variable to TRUE on line 38 of assign3.cpp.
 
-	3. I also implemented parallelization through multi-threading using OpenMP. In the parallel implementation, the rays for each pixel are shot in parallel. The super-sampling rays for anti-aliasing method are also shot in parallel. Please note that unless you are using a multi-core system, the program will not 'truly' run in parallel. To build the parallel version of the program, please install OpenMP on your MacOS system and run 'make parallel'. The command to run the program are the same as the serial version.
-
 	NOTE: Both recursion and anti-aliasing are ON by default. The still images show the difference between enabling these extra credit features and disabling them. 
-
-	NOTE: Ensure that OpenMP is installed for the parallel program. Run 'brew install libomp' if not installed and change the PARALLEL_INCLUDE and PARALLEL_LIBRARY variables in the Makefile accordingly to point to the OpenMP libraries on your computer. These locations should be mentioned once HomeBrew finishes installing OpenMP. 
 
 
 8) Instructions for running the program:
